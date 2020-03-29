@@ -1,0 +1,13 @@
+image: registry.gitlab.com/bigaru/butter-fruit-level/ci:22032020
+
+stages:
+#  - test
+  - build
+
+build:
+  stage: build
+  script: sbt compile
+
+#test:
+#  stage: test
+#  script: sbt clean test
