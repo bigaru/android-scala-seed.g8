@@ -1,4 +1,4 @@
-package in.abaddon.app
+package $organization$.$name;format="lower,word"$
 
 import android.os.Bundle
 import android.widget.TextView
